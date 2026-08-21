@@ -1,0 +1,27 @@
+{
+  "name": "fix_correios",
+  "version": "1.0.0",
+  "description": "Diagnóstico e contorno do erro HTTP 500 no botão 'Pagar taxas e tributos' do Portal Minhas Importações dos Correios (ResourceBundle mensagens-excecao / locale en_US).",
+  "main": "scripts/payment.js",
+  "scripts": {
+    "login": "node scripts/login.js",
+    "diagnostico": "node scripts/payment.js",
+    "login:local": "node scripts/login.js",
+    "diagnostico:local": "node scripts/payment.js"
+  },
+  "keywords": [
+    "correios",
+    "minhas-importacoes",
+    "jsf",
+    "mojarra",
+    "playwright",
+    "resourcebundle",
+    "diagnostico"
+  ],
+  "author": "1xLab",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "playwright": "^1.62.1"
+  }
+}

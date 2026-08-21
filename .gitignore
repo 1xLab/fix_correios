@@ -1,0 +1,13 @@
+# Dependências e artefatos locais
+node_modules/
+correios-profile/
+debug/
+package-lock.json
+
+# SO / editor
+.DS_Store
+Thumbs.db
+*.log
+
+# Scripts auxiliares não publicados
+reopen.js
